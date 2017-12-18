@@ -7,10 +7,17 @@ section so the eclipse project name is different per assignment.
 These instructor/TA instructions require using the command line, 
 but the students should not have to use the command line.
 
-1. Create a sub-directory here (e.g. PA1-Gradenator/)
+1. Create a subdirectory here (e.g. PA1-Gradenator/)
 
 2. Create a README.md file in that subdirectory.  It will be the
 assignment writeup.  Can always copy from a previous assignment to
 get started.
 
 3. Add all created files to this git repository.
+
+4. In Eclipse create a project (e.g. PA1-Gradenator) and pick its
+home to be the subdirectory created in this git repository.
+		New --> Java Project, uncheck "Use default location"
+All defaults for the rest of the project setup.
+
+
