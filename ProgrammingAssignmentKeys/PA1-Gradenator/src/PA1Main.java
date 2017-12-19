@@ -37,8 +37,9 @@ import java.util.Scanner;
  * This program assumes that all input follows the format. Any input that does
  * not follow the input format will result in undefined behavior.
  * 
- * ------------- Decomposition ------------- Using static methods within a
- * single class. <code>
+ * ------------- Decomposition -------------
+ * 
+ * Using static methods within a single class. <code>
  *      main:   will read each line from standard input, call routines to 
  *              process each line, and maintain overall grade
  *      
@@ -78,12 +79,7 @@ public class PA1Main {
                 grade_possible = grade_possible + weight(line);
                 grade_accumulated = grade_accumulated
                         + avgGrade(line) * weight(line) / 100;
-                // System.out.println(line);
-                // System.out.println(label(line));
-                // System.out.println(weight(line));
-                // System.out.println(avgGrade(line));
             }
-            System.out.println("TEST");
             System.out.println("TOTAL = " + grade_accumulated + "% out of "
                     + grade_possible + "%");
 
