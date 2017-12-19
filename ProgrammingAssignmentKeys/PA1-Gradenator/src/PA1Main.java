@@ -30,7 +30,7 @@ import java.util.Scanner;
  * The output will be the average grade per line and a total line. Example
  * output: <code>
  *      final, 20%, 80
- *      programming assignments, 25%, 76.67 (FIXME: default double format?)
+ *      programming assignments, 25%, 76.67
  *      TOTAL = 35.17% out of 45%
  * </code>
  * 
