@@ -42,6 +42,8 @@ does not follow the input format will result in undefined behavior.
 
 0. We will assume you used the provided assignment URL to set up a github
 repository.  And then clicked on that repository in your web browser.
+(FIXME: Let the class staff know your repository name so Travis CI can be
+enabled).
 
 1. Now you are reading the README.md file in that repository.  The README.md
 files will be the assignment writeups.
@@ -51,25 +53,63 @@ and copy the provided URL.  It should look like
 (https://github.com/UACS210Spring2018/...).
 
 3. Import your PA1 repository into Eclipse.
- 1. Open up Eclipse on a lab machine or your machine (if you are working on
-    your own machine, you will need to install Eclipse).
- 2. File —> Import —> Git —> Projects from Git, Next, Clone URI, Next,
-     paste in repository URL from github
+    1. Open up Eclipse on a lab machine or your machine (if you are working on
+       your own machine, you will need to install Eclipse).
 
-  3. Next, Select the master branch, Next, make the local destination 
-     /home/username/eclipse-workspace/PA1-Gradenator-githubid.  
-     This is where the local git repository will be placed.
+    2. File —> Import —> Git —> Projects from Git, Next, Clone URI, Next,
+       paste in repository URL from github
 
-  4. Next, Import existing Eclipse projects, Next, Finish.
+    3. Next, Select the master branch, Next, make the local destination 
+       /home/username/eclipse-workspace/PA1-Gradenator-githubid.  
+       This is where the local git repository will be placed.
 
-  5. Test that it runs.  Highlight the TestAssignmentMain.java file and click on the Run button.
+    4. Next, Import existing Eclipse projects, Next, Finish.
 
+    5. Test that it runs.  Highlight the PA1Main.java file and
+       click on the Run button.
+
+4. Edit, commit, and push a small change to the program.
+    1. Put the code `System.out.println("Hello");` into the main method.
+    
+    2. Run the program and see that "Hello" is printed to the Eclipse Console.
+    
+    3. Right click on PA1Main.java --> Team --> Commit, move unstaged files
+       that you want to commit into staged changes, put in a commit message,
+       and then click commit and push.
+    
+    4. Within 5-10 minutes, you should receive an email from Travis CI to
+    your github email address letting you know that your current program is NOT
+    passing the public test cases.  However, if the program compiles in Eclipse,
+    then it should compile with the grading script.
 
 
 ## Testing your program
 
 If your program cannot compile and run, then you should feel very
-uncomfortable.  
+uncomfortable.  Experienced programmers write a little bit of new functionality
+and then quickly compile and run it.  When you ask CS 210 staff questions
+about your program, we will want to see that it compiles and runs.  Comment
+out new stuff you have added until it compiles and runs.  Show us what compiles 
+and runs, and then add the one small piece that breaks it.
+
+We recommend you do a commit every time you add a small piece and your
+program compiles and run.  We recommend a commit and push at least once
+a day to see where you stand with the grading script and the public
+test cases.
+
+System.out.println is your friend.  It can help you figure out what 
+the value of variables are at various points in your program.
+
+
+## More than one revision
+
+The first time we write a piece of a program, it is really a draft.
+We want to get the syntax right and figure out the functionality.
+After that, we need to fix our initial comments so they clarify
+what the code is doing.  Help your future self and others who
+will be reading your code.  Plan on rewriting pieces of your
+program multiple times to produce a professional and clear program.
+
 
 ## Decomposition Ideas
 
