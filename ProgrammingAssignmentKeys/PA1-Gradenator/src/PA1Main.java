@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * PA1Main.java, PA1-Gradenator assignment
  * 
@@ -62,10 +64,20 @@ public class PA1Main {
 
     /**
      * @param args
+     *            Command-line arguments are not being used.
      */
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-
+        try {
+            Scanner input = new Scanner(System.in);
+            float overall_grade = 0;
+            while (input.hasNextLine()) {
+                String line = input.nextLine();
+                System.out.println(line);
+            }
+            input.close();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
 }
