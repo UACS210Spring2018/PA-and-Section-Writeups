@@ -7,13 +7,13 @@ import java.util.Scanner;
  * standard input.
  * 
  * Each line should be in the following format: <code>
- *      <string with no commas>, <int>%, <int> <int> ...
+ *      <string with no commas>, <number>%, <number> <number> ...
  * 
  * </code> Specifically a string with any characters except a comma, a comma, an
- * integer in the inclusive range 0 to 100 [0,100], a comma, and one or more
- * integers in the inclusive range 0 to 100 [0,100] separated by one or more
- * spaces. The line will end in a newline (FIXME: does Java Scanner class handle
- * different line endings on different machines?).
+ * double in the inclusive range 0 to 100 [0,100], a comma, and one or more
+ * doubles in the inclusive range 0 to 100 [0,100] separated by one or more
+ * spaces. The Java Scanner class with its nextLine() method can handle whatever
+ * line ending your file system uses.
  * 
  * Example input: <code>
  *      final, 20%, 80
@@ -30,7 +30,7 @@ import java.util.Scanner;
  * The output will be the average grade per line and a total line. Example
  * output: <code>
  *      final, 20%, 80
- *      programming assignments, 25%, 76.67 (FIXME: default float format?)
+ *      programming assignments, 25%, 76.67 (FIXME: default double format?)
  *      TOTAL = 35.17% out of 45%
  * </code>
  * 
@@ -69,13 +69,24 @@ public class PA1Main {
     public static void main(String[] args) {
         try {
             Scanner input = new Scanner(System.in);
-            float overall_grade = 0;
+            double grade_possible = 0;
+            double grade_accumulated = 0;
             while (input.hasNextLine()) {
                 String line = input.nextLine();
-                System.out.println(line);
-                System.out.println(label(line));
-                System.out.println(weight(line));
+                System.out.println(label(line) + ", " + weight(line) + "%, "
+                        + avgGrade(line));
+                grade_possible = grade_possible + weight(line);
+                grade_accumulated = grade_accumulated
+                        + avgGrade(line) * weight(line) / 100;
+                // System.out.println(line);
+                // System.out.println(label(line));
+                // System.out.println(weight(line));
+                // System.out.println(avgGrade(line));
             }
+            System.out.println("TEST");
+            System.out.println("TOTAL = " + grade_accumulated + "% out of "
+                    + grade_possible + "%");
+
             input.close();
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -88,22 +99,43 @@ public class PA1Main {
      * @return The string before the first comma.
      */
     public static String label(String str) {
-        return str.substring(0, str.indexOf(",") - 1);
+        return str.substring(0, str.indexOf(","));
     }
 
     /**
      * Given a string, find the number between the first comma and a percent
      * symbol. (e.g. weight("assdfff ;, 42 % whatevs") ==> 42
      * 
-     * @return The number found as a float.
+     * @return The number found as a double.
      */
-    public static float weight(String str) {
-        String strAfterComma = str.substring(str.indexOf(",") + 1,
-                str.length());
-        System.out.println("strAfterComma = " + strAfterComma);
+    public static double weight(String str) {
+        String strAfterComma = str.substring(str.indexOf(",") + 1);
         String strBeforePercent = strAfterComma.substring(0,
                 strAfterComma.indexOf("%"));
-        System.out.println("strBeforePercent = " + strBeforePercent);
-        return Float.valueOf(strBeforePercent);
+        return Double.valueOf(strBeforePercent);
     }
+
+    /**
+     * Given a string, find the space separated doubles after the second comma,
+     * add them up, and return their average (e.g. weight(",, 3 4.2 5") ==> 4.4
+     * )
+     * 
+     * @return The average of the numbers listed after the second comma in str.
+     */
+    public static double avgGrade(String str) {
+        int firstCommaIndex = str.indexOf(",");
+        String strAfter1stComma = str.substring(firstCommaIndex + 1);
+        int secondCommaIndex = strAfter1stComma.indexOf(",");
+        String strAfter2ndComma = (strAfter1stComma
+                .substring(secondCommaIndex + 1)).trim();
+        String[] nums = strAfter2ndComma.split("\\s+");
+        double sum = 0;
+        int count = 0;
+        for (String n : nums) {
+            sum = sum + Double.valueOf(n);
+            count = count + 1;
+        }
+        return sum / count;
+    }
+
 }
