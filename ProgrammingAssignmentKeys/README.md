@@ -33,3 +33,21 @@ test cases in PublicTestCases/ that the students will be able to use.
 Also create some PrivateTestCases/ for use in grading.
 
 9. The instructor will need to create the github assignment from the key.
+
+
+## Creating the Github Assignment
+
+1. Gets everything so somewhat inconvenient.
+```
+    svn export https://github.com/UACS210Spring2018/CS210Spring2018.git
+```
+2. Go into Classes/CS210Spring2018/ProgrammingAssignmentStarts on local machine.
+
+3. Copy the key directory there.
+
+4. Take out all of the solution.
+
+5. Create a private github repository in the class organization.
+
+6. Create a new assignment that links to that private repository for starter code.
+
