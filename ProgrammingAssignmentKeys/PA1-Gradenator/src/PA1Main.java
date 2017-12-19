@@ -73,6 +73,8 @@ public class PA1Main {
             while (input.hasNextLine()) {
                 String line = input.nextLine();
                 System.out.println(line);
+                System.out.println(label(line));
+                System.out.println(weight(line));
             }
             input.close();
         } catch (Exception ex) {
@@ -80,4 +82,28 @@ public class PA1Main {
         }
     }
 
+    /**
+     * Given a string, finds the substring before the first comma.
+     * 
+     * @return The string before the first comma.
+     */
+    public static String label(String str) {
+        return str.substring(0, str.indexOf(",") - 1);
+    }
+
+    /**
+     * Given a string, find the number between the first comma and a percent
+     * symbol. (e.g. weight("assdfff ;, 42 % whatevs") ==> 42
+     * 
+     * @return The number found as a float.
+     */
+    public static float weight(String str) {
+        String strAfterComma = str.substring(str.indexOf(",") + 1,
+                str.length());
+        System.out.println("strAfterComma = " + strAfterComma);
+        String strBeforePercent = strAfterComma.substring(0,
+                strAfterComma.indexOf("%"));
+        System.out.println("strBeforePercent = " + strBeforePercent);
+        return Float.valueOf(strBeforePercent);
+    }
 }
