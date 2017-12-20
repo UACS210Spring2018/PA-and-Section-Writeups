@@ -12,7 +12,7 @@ staff.
 * class-setup-notes, how piazza, github classroom, Travis CI, aropa, and other tools were setup at the beginning of the semester. (https://docs.google.com/document/d/1DRv36D19OVPVcCEVT03aGrcrOgwkjUEXnFQV3Be5F4U/edit?usp=sharing)
 * syllabus
 
-## Code stored in this repository
+## Code and Notes stored in this repository
 * Sections/, Like assignments README.mds will have instructions and links to any relevant google docs.  This directory will have the keys for Sections.
     * section-creation-instructions, explains how to setup a section writeup and key in eclipse and github, also how to scrape it out to make a github assignment.
 * ProgrammingAssignmentKeys/
