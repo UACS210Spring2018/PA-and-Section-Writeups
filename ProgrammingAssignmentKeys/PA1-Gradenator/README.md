@@ -8,7 +8,7 @@ Each line should be in the following format:
   <string with no commas>, <number>%, <number> <number> ...
 ```
   
-Specifically a string with any characters except a comma, a comma, an
+Specifically a string with any characters except a comma, a comma, a
 double in the inclusive range 0 to 100 [0,100], a comma, and one or more
 doubles in the inclusive range 0 to 100 [0,100] separated by one or more
 spaces. The Java Scanner class with its nextLine() method can handle whatever
@@ -22,7 +22,7 @@ Example input (see the syllabus for percentages):
 
 An overall grade will be calculated by averaging the grades listed at the end
 of each line (e.g. avg(90 60 80) ==> 76.67) and then computing a total grade
-based on the percentages indicated on each line (e.g. 0.20*80 + 0.25*76.67
+based on the percentages indicated on each line (e.g. 0.20\*80 + 0.25\*76.67
 ==> 35.17). Note that if the input percentages do not add up 100%, then the
 total grade will not be out of 100%. In the example above the best possible
 grade would be 20% + 25% ==> 45%.
@@ -120,10 +120,10 @@ parameter and return values are):
 * System.out.println() is your friend
 * new Scanner(System.in)
   * hasNextLine()
-  * getNextLine()
+  * nextLine()
   * close()
 * String
-  * substr()
+  * substring()
   * indexOf()
   * trim()
   * split()
