@@ -39,10 +39,10 @@ able to see assignment AND section plans ahead of time.
 That is ok.  I will be accepting edits to these writeups
 from you all as pull requests (see the github-usage-policy.txt 
 file).  Therefore, I take full responsibility for what 
-the students can see.  I will also probably start the very
-initial drafts of assignment writeups in this private 
-repository and then move them over when they are ready for 
-you all to proof read it.
+the students can see.  We will also start the 
+initial drafts of assignment writeups in the key 
+repositories and then move them over when they are ready for 
+posting.
 
 
 ## Starts for Section and Programming Assignments (public)
@@ -120,6 +120,7 @@ subdirectories.
 		// Here are the subdirectories NOT in this repository.
 		PA-and-Section-Writeups/ 
 		(https://github.com/UACS210Spring2018/PA-and-Section-Writeups)
+		
 			PA1-Gradenator-Writeup/
 			
 			Section0-Eclipse-Writeup/
