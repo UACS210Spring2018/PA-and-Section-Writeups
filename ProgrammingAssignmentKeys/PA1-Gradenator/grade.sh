@@ -51,13 +51,13 @@ then
     # if that worked then run it on each file in the given directory
 	for infile in `ls ../$inputdir/*.in`
 	do
-		echo "java $main < $infile"
-		java $main < $infile
+		echo "java $main $infile"
+		java $main $infile
 	done
 
 # Not enough parameters given to script.
 else
     echo
-    echo "usage: ./grade.sh JavaHelloWorld PublicTestCases"
+    echo "usage: ./grade.sh PA1Main PublicTestCases"
 fi
 echo

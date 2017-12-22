@@ -1,7 +1,7 @@
 # PA1 Gradenator
 
-The goals for PA1 are to get started with Java and figure out how to calculate your
-current CS 210 grade.
+The goals for PA1 are to get started with Java and figure out how to 
+calculate your current CS 210 grade.
 
 Each line should be in the following format:
 ```
@@ -65,8 +65,10 @@ and copy the provided URL.  It should look like
 
     4. Next, Import existing Eclipse projects, Next, Finish.
 
-    5. Test that it runs.  Highlight the PA1Main.java file and
-       click on the Run button.
+    5. Test that it runs.  Right click on the PA1Main.java file, Run As, 
+       Run Configurations.  For the Program Arguments paste in 
+       (PublicTestCases/inputReal1.in), without the parens.  This is 
+       the relative path to a sample input file.  Then click Run.
 
 4. Edit, commit, and push a small change to the program.
     1. Put the code `System.out.println("Hello");` into the main method.
