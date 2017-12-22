@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 /**
@@ -65,11 +66,18 @@ public class PA1Main {
 
     /**
      * @param args
-     *            Command-line arguments are not being used.
+     *            Should have the input file name as args[0].
      */
     public static void main(String[] args) {
+
+        if (args.length < 1) {
+            System.err.println(
+                    "Input filename must be provided on command line.");
+            System.exit(1);
+        }
+
         try {
-            Scanner input = new Scanner(System.in);
+            Scanner input = new Scanner(new File(args[0]));
             double grade_possible = 0;
             double grade_accumulated = 0;
             while (input.hasNextLine()) {
