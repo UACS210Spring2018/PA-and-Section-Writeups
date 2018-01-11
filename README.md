@@ -7,7 +7,7 @@ will be action items for course staff.
 * cs210-learning-objectives, google sheet that links learning objectives to various course activities
 * cs210-spring2018-schedule (https://docs.google.com/spreadsheets/d/1Jg00DvNr9IKLWqdqsBmAjsVe1xl-Dsr13aYjhpzbI7U/edit?usp=sharing)
 * reading-assignment-ideas (https://docs.google.com/document/d/1xTjAsOAzuHfNfqYO1nGnk8fWS45kqHuflq8n3jKojW0/edit?usp=sharing)
-* TA-and-SL-Expectations
+* Staff Expectations and prep meeting notes (https://drive.google.com/drive/u/1/folders/1UGUUJ4ITIa3PajWyCCPILVoktPTffCEE)
 * class-setup-notes, how piazza, github classroom, Travis CI, aropa, and other tools were setup at the beginning of the semester. (https://docs.google.com/document/d/1DRv36D19OVPVcCEVT03aGrcrOgwkjUEXnFQV3Be5F4U/edit?usp=sharing)
 * syllabus (just the dept template right now, https://docs.google.com/document/d/1GvVzKxGsGCB99qgeVWYbls_MYaqd0f1ALpF8BACB5V0/edit?usp=sharing)
 
