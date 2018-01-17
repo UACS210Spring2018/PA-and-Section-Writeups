@@ -1,0 +1,8 @@
+install: true
+
+script: ./grade.sh PA1Main PublicTestCases
+
+notifications:
+  on_success: always
+  email:
+    - your.github.email@whatever.domain
