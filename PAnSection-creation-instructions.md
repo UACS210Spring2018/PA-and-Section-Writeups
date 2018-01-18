@@ -18,6 +18,7 @@ the main repository.
 	cd PA-and-Section-Keys/Section1-HashMap-Key/
 	more README.md  // did this to copy the README.md that will be overwritten
 	mv PAnSectionTemplate/* .
+	mv PAnSectionTemplate/.* .
 	rm -rf PAnSectionTemplate/
 	
 	// rename the main Java file
@@ -27,6 +28,7 @@ the main repository.
 	// add all these files to your repository
 	cd ..
 	git add *
+	git add .project .classpath .settings .travis.yml .gitignore
 	git commit
 	git push
 ```
