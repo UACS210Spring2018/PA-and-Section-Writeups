@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CS210Spring2018
 Main repository for organizing CS 210 in Spring 2018.  Contains links 
 to private instructor, TA, and SL notes.  Issues associated with this repository 
@@ -155,4 +154,3 @@ subdirectories.
 =======
 # PA-and-Section-Writeups
 Write-ups and shared code for all of the programming assignments and sections in CS210 Spring 2018.
->>>>>>> Initial commit
