@@ -1,0 +1,51 @@
+-----------------------
+INITIAL SETUP
+
+	(1) In github, create your own fork (i.e. copy) of the repository.  This fork lives in your github account.
+
+	(2) On your machine get a clone of your fork.
+		git init
+		git clone <URL you can copy from github page for your fork>
+
+	(3) Understand what your fork on github is called and what the CS210Spring2018 repository in UACS210Spring2018 is called.
+		cd CS210Spring2018
+		git remote -v
+origin	https://github.com/githubusername/CS210Spring2018.git (fetch)
+origin	https://github.com/githubusername/CS210Spring2018.git (push)
+		
+		git remote add upstream https://github.com/UACS210Spring2018/CS210Spring2018.git
+		git remote -v
+origin	https://github.com/githubusername/CS210Spring2018.git (fetch)
+origin	https://github.com/githubusername/CS210Spring2018.git (push)
+upstream	https://github.com/UACS210Spring2018/CS210Spring2018.git (fetch)
+upstream	https://github.com/UACS210Spring2018/CS210Spring2018.git (push)
+
+-----------------------
+COMMITTING and PUSHING CHANGES
+
+	git add filename		// adds a file to next commit
+	git commit			// locally commits changes on files that have been added, provide a useful log message
+	git push				// pushes the changes to your fork on github (i.e. origin)
+
+
+-----------------------
+GETTING YOUR CHANGES INCORPORATED INTO SHARED REPOSITORY (i.e. upstream)
+
+	on github open the webpage for your fork
+
+	click new pull request
+
+	create a pull request by following the web forms
+
+	if MMS doesn’t notice it soon enough, then ping her in email
+
+-----------------------
+UPDATING YOUR FORK WITH NEWEST SHARED REPOSITORY
+
+	Before you make a new pull request and once your pull request has been accepted
+
+	in your local working directory
+	git fetch upstream
+	git checkout master
+	git rebase upstream/master			// If you get stuck here call MMS or Mahdi for help.
+	git push -f origin master
