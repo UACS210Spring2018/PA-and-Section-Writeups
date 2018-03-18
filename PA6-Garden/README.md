@@ -303,4 +303,5 @@ The class hierarchy diagram in pdf format is due Tuesday March 13th at 11:30 am
 in Gradescope AND Aropa.
 
 For PA6, you are **REQUIRED** to submit all of your java source files
-to Gradescope before Monday March 19th at 11:30 am.
+to Gradescope before Monday March 19th at 11:30 am.  You also need to submit
+your README.md with example input and output for your unique class.
