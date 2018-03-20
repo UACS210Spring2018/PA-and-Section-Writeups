@@ -27,7 +27,7 @@ Now you are ready to start coding.
 ## The Assignment
 Overview : Implement the file processing functionality in Section8Main and complete the 
 TODOs in Section8Edges in order to create a textual and visual representation of an 
-undirected graph. You will submit your java code to gradescopep and show your SL your 
+undirected graph. You will submit your java code to gradescope and show your SL your 
 answers to the conceptual questions. 
 
 ### Part One - Decomposition 
