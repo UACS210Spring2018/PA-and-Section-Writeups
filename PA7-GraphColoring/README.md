@@ -51,7 +51,7 @@ Writing dot files will be covered in Section 8.
 
 ### Recursive Backtracking
 
-Will make the decisions starting with node 0 and continuing through the
+Will make the decisions starting with node 1 and continuing through the
 nodes in order.  Everytime a node coloring choice is tried, that choice
 will be checked before recursing to do some pruning.  We cannot stop
 at the first coloring we find, because it is possible that other colorings
