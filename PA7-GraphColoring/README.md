@@ -49,7 +49,8 @@ You can use whatever node filling colors you would like
 (see https://www.graphviz.org/doc/info/colors.html).
 Writing dot files will be covered in Section 8.
 
-You CAN use the code to read in files, store a graph, and output
+You CAN use the code provided and/or written in Section 8
+to read in files, store a graph, and output
 a graph to a dot file in your PA7.
 
 ### Recursive Backtracking
