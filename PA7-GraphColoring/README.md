@@ -193,7 +193,8 @@ Decomposition
 * Make things as simple as possible.
   * Only use one Scanner instance.
   * Don't use lambda functions or other features in non-standard ways.
-  * Avoid nested loops unless they would be cleaner when handling a 2D array.
+  * In general avoid nested loops.  However, can use nested loops to 
+    implement the recursive backtracking and heuristic in PA7.
   * Avoid nesting conditionals.
   * Avoid chaining: see the Piazza post for more info
 
