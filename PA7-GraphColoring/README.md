@@ -195,7 +195,8 @@ Decomposition
   * Don't use lambda functions or other features in non-standard ways.
   * In general avoid nested loops.  However, can use nested loops to 
     implement the recursive backtracking and heuristic in PA7.
-  * Avoid nesting conditionals.
+  * In general, avoid nesting conditionals.  However, you can use nested conditionals to 
+    implement the recursive backtracking and heuristic in PA7.
   * Avoid chaining: see the Piazza post for more info
 
 
