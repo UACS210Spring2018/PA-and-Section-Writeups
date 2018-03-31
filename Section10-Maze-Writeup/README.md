@@ -33,8 +33,8 @@ of characters representation. This array will be iterated over when drawing each
 corn maze. When drawing the maze, each ascii character corresponds to a unique shape and color 
 combination. The start location should be represented by a triangle and a color of your 
 choosing. The corn walls should be represented by yellow squares and the end location should be 
-a square and a color of your choosing. The file input file is hardcoded in the start method, so 
-change the file name there to demo the different representations of the maze.
+a square and a color of your choosing. The input file name is hardcoded in the start method, so 
+you can change the file name there to demo the different representations of the maze.
 
 Example input file: 
 
@@ -81,4 +81,4 @@ Nested loops are acceptable for iterating over the 2D array.
 If you finish Section early and are interested in drawing more interesting shapes, check out:
 https://docs.oracle.com/javase/8/javafx/api/javafx/scene/canvas/GraphicsContext.html 
 
-This is a great resource to explore to help you come up with create representations for PA8! 
+This is a great resource to explore in preparation for PA8! 
