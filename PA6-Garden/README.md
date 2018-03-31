@@ -1,5 +1,4 @@
-# PA6-Garden-Key (Status: Posted Feb 28th at 10:30pm, Clarification on errors March 7 7:30am)
-PA6 key and initial writeup draft.
+# PA6-Garden-Writeup (Status: Posted Feb 28th at 10:30pm, Clarification on errors March 7 7:30am)
 
 ## Learning Objectives
 
