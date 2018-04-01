@@ -62,8 +62,8 @@ this delay was set to **.5**, therefore, each command was executed after waiting
     The tutorial is also posted on the CS 210 resources webpage 
     (https://piazza.com/arizona/spring2018/csc210/resources).
 
- 2. Accept the github assignment for PA8, [FIXME link].  Import your PA8 github repository
-    into Eclipse as usual.
+ 2. Accept the github assignment for PA8, (https://classroom.github.com/a/JKfUfTBS).
+    Import your PA8 github repository into Eclipse as usual.
  
  3. Run the given starter code and see what it does.
  
