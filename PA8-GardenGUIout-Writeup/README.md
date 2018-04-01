@@ -16,7 +16,7 @@ simulation.
 For PA8, you will be graphically representing each plant in 
 the output as well as handling a 'delay' command from the input file that 
 represents how long to wait between the execution of commands. 
-In the video example (PublicTestCases/custonPlant.in and 
+In the video example (PublicTestCases/customPlant.in and 
 PublicTestCases/CustomPlantExample.mp4), 
 each part of a plant (i.e., each character from the PA6 output) is represented 
 by uniquely colored tile on a canvas.
@@ -27,7 +27,7 @@ You can leave in the print handling code if you would like however.
 
 Please open and watch 'PublicTestCases/Example.mp4' to see an example GUI 
 output for the input file 'PublicTestCases/Garden.in'.  Also see
-'PublicTestCases/custonPlant.in' and 'PublicTestCases/CustomPlantExample.mp4'.
+'PublicTestCases/customPlant.in' and 'PublicTestCases/CustomPlantExample.mp4'.
 You will be creating a variant of Garden.in for your own unique plant or garden object.
 
 You should also be looking at the PA6-Garden writeup to refresh your memory on 
