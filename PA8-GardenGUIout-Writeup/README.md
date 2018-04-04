@@ -165,7 +165,8 @@ For this assignment, you are **REQUIRED** to submit all of the following files
 to Gradescope before Monday April 9th at 11:30am. 
   * All the Java source files needed to run your program.
   * myGarden.in
-  * myGarden.mp4, or other video format that can be run on multiple platforms
+  * myGarden.mp4, or other video format that can be run on multiple platforms.
+    The video should be between 10 and 15 seconds long.
   
 To create the video, you can use a program to record your screen as you run 
 your program, or you can simply record your screen with your smartphone or tablet. 
