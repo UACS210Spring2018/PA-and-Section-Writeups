@@ -130,7 +130,7 @@ Decomposition
   should have been encapsulated in a method.
 
 * **This program should use fewer than 10 .java files.**
-  Each of these files should be (<200 lines).
+  Each of these files should be (<300 lines).
 
 * Each method should be less than 30 lines.  This INCLUDES
   comments, but not the method header.  It is easier to read a 
