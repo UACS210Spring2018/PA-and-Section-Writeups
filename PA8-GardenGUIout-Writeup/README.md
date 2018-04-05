@@ -52,7 +52,7 @@ GROW 1
 ```
 
 The number after 'delay:' is a **double** that represents the time to wait 
-before each command executed. In the video example (CustomPlantExample.mp4),
+before each command is executed. In the video example (CustomPlantExample.mp4),
 this delay was set to **.5**, therefore, each command was executed after waiting a half second.
 
 ## Steps for completing this assignment
