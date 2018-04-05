@@ -86,13 +86,13 @@ will use fewer colors.
 ### Heuristic
 
 ```
-    for node=1 to num_nodes inclusive
+    for k=1 to num_nodes inclusive
     
         for all possible colors in order except for NOCOLOR
                         
             if that coloring does NOT conflict with node k's neighboring colors                
                 color kth node with color
-                break out of loop over possible colors for this node         
+                break out of loop over possible colors for node k       
 ```
 
 ### Your own approach
