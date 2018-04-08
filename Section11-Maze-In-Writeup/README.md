@@ -44,7 +44,7 @@ A TextField, Button and GraphicsContext are what we will be adding to take in GU
 Add code to readMaze to initialize the x and y coordinates. Remember
 the x and y coordinates are the location of the triangle in the maze, 
 so when you read in the maze the x and y coordinates should be initialized
-to the start location ('S') of the maze. 
+to the start location ('S'). 
 
 Now update start to format the additional elements of the GUI. 
 
@@ -110,7 +110,7 @@ the movement through the maze using the simple commands 'RIGHT', 'LEFT',
 and clicking the button will have no effect unless we implement a 
 listener. For this section, a button listener will be used. Any time 
 the button is clicked it will read in the text in TextField and process
-if it is a valid command and move. The button listener is a class method. 
+if it is a valid command and move. setUpListeners() is a class method. 
 
 Copy the code below into your code to implement the Button Listener. 
 
@@ -138,7 +138,7 @@ TextField.
 
 Now that the button listener is implemented we need to implement two 
 functions. One function will check if the input is valid and the second
-function update GraphicsContext of the maze. The command must be spelled 
+function updates the GraphicsContext of the maze. The command must be spelled 
 correctly, but capitilization does not matter. A line for debugging and
 one example validation check is included below. You must implement the 
 three other validation checks and print to the console if the input 
@@ -155,7 +155,8 @@ command is invalid.
 ```
 
 We are giving you the function code to redraw the triangle based on an 
-already validated move. 
+already validated move. Copy and paste this into Drawing. Your code 
+should now be fully functional. 
 
 ```
     /**
