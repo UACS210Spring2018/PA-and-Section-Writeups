@@ -2,14 +2,14 @@
 
 ## Introduction
 
-Today we will be building off of Section10 in order to explore receiving 
+Today we will be building off of Section10  to explore receiving 
 input from a graphical user interface. We will be adding a TextField and 
 Button to the GUI so we can control the movement through the maze using 
 the simple commands 'RIGHT', 'LEFT', 'UP' and 'DOWN'. This GUI input setup
 is identical to the GUI input you will be adding to update PA8 to match 
 the PA9 spec. 
 
-You will need the code completed from last week's section in order to 
+You will need the code completed from last week's section  to 
 complete this section. If you have not finished this section already, 
 look on Piazza for the post holding the key. All of the code to implement
 your GUI will be added to the Drawing class. 
@@ -31,7 +31,7 @@ squares the triangle moves. I suggest you name the coordinates x, y and the
 constant MOVE to match later code that is given to you. Additionally, you 
 will have to make the 2D char array a class variable. 
 
-A TextField, Button and GraphicsContext are what we will be adding to take in GUI Input. Insert the code below at the top of your Drawing class. 
+A TextField, Button, and GraphicsContext are what we will be adding to take in GUI Input. Insert the code below at the top of your Drawing class. 
 
 ```
     // GUI objects
@@ -44,7 +44,7 @@ A TextField, Button and GraphicsContext are what we will be adding to take in GU
 Add code to readMaze to initialize the x and y coordinates. Remember
 the x and y coordinates are the location of the triangle in the maze, 
 so when you read in the maze the x and y coordinates should be initialized
-to the start location ('S'). 
+to the start location ('S') of the maze. 
 
 Now update start to format the additional elements of the GUI. 
 
@@ -65,7 +65,7 @@ Add the code below to initialize and format the new GUI objects.
         VBox vb = new VBox(2);
 
         setupNodes(hb, cmd, vb);
-        setupListeners();
+        setupEventHandlers();
 
         p.setCenter(canvas);
         p.setBottom(vb);
@@ -76,7 +76,7 @@ the code below to implement this method.
 
 ```
     /*
-     * Sets up the TextField, label and button to be
+     * Sets up the TextField, label, and button to be
      * in the bottom
      */
     private void setupNodes(HBox hb, Label cmd, VBox vb) {
@@ -95,7 +95,7 @@ the code below to implement this method.
 Now you will have to update your code to set up the primaryStage 
 to accept p to so the new set up can be displayed. The code below
 replaces the primaryStage setup with new Scene(root). To maintain 
-good style, you should remove all code from last section referencing 
+good style, you should remove all code from section 10 referencing 
 the Group root. 
 
 ```
@@ -103,23 +103,23 @@ the Group root.
 
 ```
 
-### Part Three - Button Listener 
+### Part Three - Button EventHandler
 The TextField takes in the typed user input. Remember we can control 
 the movement through the maze using the simple commands 'RIGHT', 'LEFT', 
 'UP' and 'DOWN'. However, typing the these commands into the TextField 
 and clicking the button will have no effect unless we implement a 
-listener. For this section, a button listener will be used. Any time 
+EventHandler. For this section, a button EventHandler will be used. Any time 
 the button is clicked it will read in the text in TextField and process
-if it is a valid command and move. setUpListeners() is a class method. 
+if it is a valid command and move. The button EventHandler is a class method. 
 
-Copy the code below into your code to implement the Button Listener. 
+Copy the code below into your code to implement the Button EventHandler. 
 
 ```
     /*
-     * Button Listener to take input command
+     * Button EventHandler to take input command
      * when button is clicked.
      */
-    private void setupListeners() {
+    private void setupEventHandlers() {
         nextMove.setOnAction(new EventHandler<ActionEvent>() {
 
             @Override
@@ -136,9 +136,9 @@ TextField.
 
 ### Part Three - Additional Functions to Implement Input Response 
 
-Now that the button listener is implemented we need to implement two 
+Now that the button EventHandler is implemented we need to implement two 
 functions. One function will check if the input is valid and the second
-function updates the GraphicsContext of the maze. The command must be spelled 
+function update GraphicsContext of the maze. The command must be spelled 
 correctly, but capitilization does not matter. A line for debugging and
 one example validation check is included below. You must implement the 
 three other validation checks and print to the console if the input 
@@ -155,8 +155,7 @@ command is invalid.
 ```
 
 We are giving you the function code to redraw the triangle based on an 
-already validated move. Copy and paste this into Drawing. Your code 
-should now be fully functional. 
+already validated move. 
 
 ```
     /**
