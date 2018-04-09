@@ -148,7 +148,7 @@ command is invalid.
     public void parseLine(String line) {
         System.out.println("reading " + line); // Print line for debugging
         if (line.toLowerCase().compareTo("up") == 0 && y - MOVE >= 0
-                && maze2[y - MOVE][x] != '*') {
+                && maze[y - MOVE][x] != '*') {
             move(y - MOVE, x);
         } 
     }
