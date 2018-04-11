@@ -60,7 +60,7 @@ be reading in both the width and height of the garden.
  4. If it does, then incorporate your PA8 code into your PA9.  We strongly
     recommend you do it in small pieces.
  
- 5. Implement the the functionality provided in this write up for PA9.
+ 5. Implement the functionality provided in this write up for PA9.
  
  6. Test your code with various inputs to make sure that it works correctly.
 
