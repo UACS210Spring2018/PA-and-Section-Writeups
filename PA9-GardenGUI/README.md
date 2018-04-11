@@ -18,7 +18,7 @@ you will create a TextField where a user can input a garden simulation command
 button to show the results of that command.
 
 Another interesting aspect of PA9 is that you will be continuing to refine
-the Garden simulation code.  Some of your code will cahnge and some of the
+the Garden simulation code.  Some of your code will change and some of the
 code from PA8 and PA6 should be removed in PA9.
 
 
