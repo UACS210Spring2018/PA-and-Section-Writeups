@@ -134,7 +134,7 @@ parseLine is the function you will be implementing to validate the user
 input. command.getText() retrieves the string of text from the command 
 TextField. 
 
-### Part Three - Additional Functions to Implement Input Response 
+### Part Four - Additional Functions to Implement Input Response 
 
 Now that the button EventHandler is implemented we need to implement two 
 functions. One function will check if the input is valid and the second
