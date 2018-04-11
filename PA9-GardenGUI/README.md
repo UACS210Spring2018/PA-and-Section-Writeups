@@ -119,7 +119,7 @@ must be less than 5 minutes and show all of the above listed criteria.
 The working GUI must also be demonstrated with code.  Submit your PA9 code to
 gradescope.
 
-The other half of the PA8 grade will be your decomposition and code clarity.
+The other half of the PA9 grade will be your decomposition and code clarity.
 
 Decomposition
 
