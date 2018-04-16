@@ -93,8 +93,7 @@ For the assignment, you will need to do the following:
   * The provided starter code has a significant amount of code
     redundancy, magic numbers, and is only hardcoded for one example.
     Do NOT submit the starter code.  Your code will need to be significantly
-    cleaner.  The code in the key only takes FIXME lines of code
-    total in FIXME java files.
+    cleaner.
       
   * Your demonstration will need to be on at the provided
     sculpture.in.  You can append more sculpture nodes of different
@@ -118,7 +117,7 @@ $ wc *.java
 ```
     This means that the whole program is 432 lines of code.
     
- 1. Accept the github assignment for PA10, (FIXME).
+ 1. Accept the github assignment for PA10, (https://classroom.github.com/a/byIC_y1AE).
     Import your PA10 github repository into Eclipse as usual.
  
  2. Run the PA10hardcoded.java and see what it does.
