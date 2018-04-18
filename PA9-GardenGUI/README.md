@@ -105,8 +105,8 @@ garden, the following general requirements must be met:
 * As in PA8, you must still handle errors. Errors that don't cause the program to stop 
   (such as 'Can't grow here') should be **distinguishable** in the command log. 
   In the video example, the error is fully capitalized and spaced out from surrounding text.
-  For errors that do cause the program to stop, such as 'Invalid dimension input' or 
-  'File not found' should still print to stdout and exit the program as usual.
+  For errors that do cause the program to stop, such as 'Invalid dimension input'
+  should still print to stdout and exit the program as usual.
   
 
 
