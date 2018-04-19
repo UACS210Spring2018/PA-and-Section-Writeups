@@ -95,7 +95,7 @@ For the assignment, you will need to do the following:
     Do NOT submit the starter code.  Your code will need to be significantly
     cleaner.
       
-  * Your demonstration will need to be on at the provided
+  * Your demonstration will need to be using the provided
     sculpture.in.  You can append more sculpture nodes of different
     types to that file to make your kinetic sculpture
     program unique and to garner up to 10 extra credit points.
