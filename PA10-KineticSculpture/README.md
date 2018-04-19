@@ -135,7 +135,7 @@ $ wc *.java
 
 ## Suggestions
 
- * Work on have a Sculpture object that can read itself
+ * Work on a Sculpture object that can read itself
    in from a file first.
   
  * Then work on displaying the Sculpture object using the
