@@ -158,9 +158,11 @@ $ wc *.java
 
 ## Grading Criteria
 
-Half of the PA10 grade will correctness.  For this assignment, this is the GUI 
-input and output.  You should also expect that we might run your program with 
-additional input files besides the ones provided.
+Half of the PA10 grade will correctness (30 points) and the class hierarchy diagram (20 points).
+For this assignment, correctness is the GUI input and output.  You should also expect that we 
+might run your program with additional input files besides the ones provided.
+The class hierarchy diagram should follow the format discussed in class and contain enough
+functionality for completing the assignment.
 
 The other half of the PA10 grade will be your decomposition and code clarity.
 
