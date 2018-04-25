@@ -27,7 +27,7 @@ new circles can be generated, etc.
 
 This is a two-week assignment.
 * For the first week, you will need
-  to submit a class hierarchy diagram with ALL the class you plan to have
+  to submit a class hierarchy diagram with ALL the classes you plan to have
   and their fields and interface to Aropa and to Gradescope for peer review.
   
 * The whole assignment will need to be completed by the end of the second
@@ -66,7 +66,7 @@ For the assignment, you will need to do the following:
     (source, passthrough, and sink), the input ports are on the left
     of the sculpture nodes and the output ports are on the right of the node.
     When two sculpture nodes are connected, the line representing the connection
-    should go from the middle of right side of the first node to 
+    should go from the middle of the right side of the first node to 
     the middle of the left side of the second node.  Run
     the provided PA10hardCodedDemp start code for an example.
     
@@ -158,7 +158,7 @@ $ wc *.java
 
 ## Grading Criteria
 
-Half of the PA10 grade will correctness (30 points) and the class hierarchy diagram (20 points).
+Half of the PA10 grade will be correctness (30 points) and the class hierarchy diagram (20 points).
 For this assignment, correctness is the GUI input and output.  You should also expect that we 
 might run your program with additional input files besides the ones provided.
 The class hierarchy diagram should follow the format discussed in class and contain enough
